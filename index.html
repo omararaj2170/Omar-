@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omar Hub</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(180deg,#001f3f,#003366,#0066cc);
+    color:white;
+    min-height:200vh; /* lets you scroll */
+}
+
+header{
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    text-shadow:0 0 15px #00aaff;
+}
+
+header p{
+    opacity:0.8;
+    margin-top:10px;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.card{
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:20px;
+    padding:25px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px) scale(1.02);
+    box-shadow:0 0 25px #00aaff;
+}
+
+.card h2{
+    color:#66ccff;
+    margin-bottom:10px;
+}
+
+.card p{
+    opacity:0.85;
+}
+
+footer{
+    text-align:center;
+    padding:100px 20px;
+    opacity:0.7;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🚀 Omar Hub</h1>
+    <p>Choose a service below</p>
+</header>
+
+<div class="container">
+
+    <div class="card"
+         onclick="window.location.href='https://omararaj2170.github.io/Omar-IPTV/'">
+        <h2>Omar IPTV</h2>
+        <p>Watch IPTV channels and streams.</p>
+    </div>
+
+    <div class="card"
+         onclick="window.location.href='https://omararaj2170.github.io/Omar-Cydia/'">
+        <h2>Omar Cydia</h2>
+        <p>Browse tweaks, repositories, and downloads.</p>
+    </div>
+
+    <div class="card"
+         onclick="window.location.href='https://omararaj2170.github.io/Omar-Games/'">
+        <h2>Omar Games</h2>
+        <p>Play games and explore your collection.</p>
+    </div>
+
+    <div class="card"
+         onclick="window.location.href='https://omararaj2170.github.io/Omar-Radio/'">
+        <h2>Omar Radio</h2>
+        <p>Listen to online radio stations.</p>
+    </div>
+
+</div>
+
+<footer>
+    <h2>🌟 More Features Coming Soon 🌟</h2>
+    <p>Scroll around and enjoy the effects!</p>
+</footer>
+
+</body>
+</html>
